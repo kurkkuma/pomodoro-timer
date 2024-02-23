@@ -5,6 +5,7 @@
   justify-content: space-between;
   text-transform: uppercase;
   font-size: 1rem;
+  margin-bottom: 2rem;
 }
 .site-title {
   user-select: none;

@@ -1,0 +1,25 @@
+.timer-info {
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.timer-navbar {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.2rem;
+}
+.timer-navbar li {
+  cursor: pointer;
+  padding: 0.2rem 0.5rem;
+  margin-bottom: 1rem;
+}
+.timer-navbar li.active {
+  border: 2px solid var(--orange);
+  border-radius: 0.5rem;
+}
+.timer h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
