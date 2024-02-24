@@ -1,0 +1,64 @@
+.tasks-info-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.tasks-info-container h3,
+p {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+.tasks-info-container p span {
+  font-weight: bold;
+}
+.task-form {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.task-form input {
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  border-bottom: 2px solid var(--white);
+  color: var(--white);
+  width: 60%;
+  max-width: 20rem;
+  margin-bottom: 2rem;
+  outline: none;
+}
+::placeholder {
+  color: var(--yellow);
+}
+
+.task-form button {
+  font-family: "Fredoka", sans-serif;
+  letter-spacing: 0.2rem;
+  background-color: transparent;
+  padding: 0.2rem 1rem;
+  border: 2px solid var(--white);
+  border-radius: 0.3rem;
+  color: var(--white);
+  cursor: pointer;
+  transition: all 0.1s ease-in;
+}
+.task-form button:active {
+  transform: scale(0.95);
+  border-color: var(--yellow);
+  color: var(--yellow);
+}
+
+.tasks {
+  font-size: 1.1rem;
+}
+.todo {
+  cursor: pointer;
+}
+.todo:hover {
+  text-decoration: line-through;
+}

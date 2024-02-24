@@ -1,5 +1,4 @@
 .timer-info {
-  border: 1px solid blue;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,10 +15,26 @@
   margin-bottom: 1rem;
 }
 .timer-navbar li.active {
-  border: 2px solid var(--orange);
-  border-radius: 0.5rem;
+  border: 3px solid var(--orange);
+  border-radius: 0.3rem;
 }
 .timer h1 {
   font-size: 4rem;
   margin-bottom: 1rem;
+}
+
+.btn {
+  font-family: "Fredoka", sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  background-color: var(--yellow);
+  padding: 0.5rem 1.5rem;
+  border: 3px solid var(--orange);
+  border-radius: 0.3rem;
+  color: var(--red);
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: transparent;
+  color: var(--yellow);
 }

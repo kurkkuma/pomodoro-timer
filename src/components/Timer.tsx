@@ -11,7 +11,7 @@ function Timer() {
       <div className="timer">
         <h1>25:00</h1>
       </div>
-      <button className="start">START</button>
+      <button className="btn">START</button>
     </div>
   );
 }
